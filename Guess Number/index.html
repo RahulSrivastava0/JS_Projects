@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Guess the Number</h1>
+        <div class="desc">
+            <p>I'm thinking of  anumber between 0 and 100. Can you guess it?</p>
+            <p class="guess-data"></p>
+        </div>
+        <div class="guess-details">
+            <label for="guess-desc">
+                Your guess (0-100):
+            </label>
+            <input type="number" id="guess-desc" placeholder="Enter a number">
+            <p>Enter a number between 0 and 100</p>
+        </div>
+        <div class="button">
+            <button class="submit">
+                Submit Guess
+            </button>
+
+            <button class="new">
+                New Game
+            </button>
+        </div>
+        <div class="guesses"></div>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
