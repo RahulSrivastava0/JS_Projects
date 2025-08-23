@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.container{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    border: 1px solid rgb(194, 193, 193);
+    width: 42%;
+    border-radius: 8px;
+
+}
+
+/* Input + icon wrapper */
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.input-box i {
+  color: rgb(249, 110, 133);
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* 🔒 Remove number field arrows (spinner) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+} */
+
+h3{
+    color: rgb(59, 58, 58);
+    font-size: medium;
+}
+
+.para{
+    color: gray;
+}
